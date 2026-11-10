@@ -6,6 +6,9 @@
 > **Benchmark Dataset (10,000 Txs):** [`data/transactions_benchmark.csv`](data/transactions_benchmark.csv)  
 > **Evaluation Metrics Artifact:** [`data/model_evaluation_results.json`](data/model_evaluation_results.json)
 
+> [!NOTE]
+> **Dataset & Dashboard Disclosure:** `data/transactions_benchmark.csv` is a synthetically generated 10,000-transaction multi-rail benchmark dataset produced by `src/pipeline.py` for reproducible fraud/structuring evaluation, and the GitHub Pages dashboard renders those precomputed evaluation metrics and a client-side risk scorer.
+
 ---
 
 ## 1. Problem Statement
